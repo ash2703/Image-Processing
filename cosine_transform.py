@@ -14,7 +14,7 @@ def plot(img,title="Image"):
     plt.imshow(img,cmap="gray")
     plt.title(title)
 
-img = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\fourier analysis\\messi5.jpg',0)
+img = cv.imread('Images\\fourier analysis\\messi5.jpg',0)
 
 
 imf = np.float32(img)/255.0  # float conversion/scale

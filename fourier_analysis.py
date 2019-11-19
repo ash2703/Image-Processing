@@ -9,7 +9,7 @@ import cv2 as cv
 import numpy as np
 
 
-img = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\fourier analysis\\horizontal_lines.jpg',0)
+img = cv.imread('Images\\fourier analysis\\horizontal_lines.jpg',0)
 
 f = np.fft.fft2(img)   #2d fast fourier transform
 fshift = np.fft.fftshift(f)  #shift the high frequency component in the centre

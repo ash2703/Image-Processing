@@ -66,7 +66,7 @@ cv.createTrackbar(high_S_name, window_detection_name , high_S, max_value, on_hig
 cv.createTrackbar(low_V_name, window_detection_name , low_V, max_value, on_low_V_thresh_trackbar)
 cv.createTrackbar(high_V_name, window_detection_name , high_V, max_value, on_high_V_thresh_trackbar)
 
-cap=cv.VideoCapture(0)
+cap=cv.VideoCapture(0)   #using default camera
 while True:
     
     _,frame=cap.read()

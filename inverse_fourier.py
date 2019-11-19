@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-img = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\fourier analysis\\messi5.jpg',0)
+img = cv.imread('Images\\fourier analysis\\messi5.jpg',0)
 
 def plot(img,title="Image"):
     plt.figure()

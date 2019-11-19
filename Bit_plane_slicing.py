@@ -9,7 +9,7 @@ import numpy as np
 import cv2 as cv
     
 
-img = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\Slicing\\messi5.jpg',1)
+img = cv.imread('Images\\Slicing\\messi5.jpg',1)
 img_r=np.zeros_like(img)   #create a 3D matrix of zeroes
 img_b=np.zeros_like(img)
 img_g=np.zeros_like(img)

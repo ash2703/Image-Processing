@@ -40,8 +40,8 @@ def inverse1(mag,phase):  #using lambda function
 
 
 
-img1 = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\fourier analysis\\messi5.jpg',0)
-img2 = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\fourier analysis\\lena.png',0)
+img1 = cv.imread('Images\\fourier analysis\\messi5.jpg',0)
+img2 = cv.imread('Images\\fourier analysis\\lena.png',0)
 
 img1=cv.resize(img1,(img2.shape[0],img2.shape[1]))
 fft1=np.fft.fft2(img1)

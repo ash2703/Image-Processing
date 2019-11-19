@@ -8,7 +8,7 @@ import cv2
 
 
 
-img = cv2.imread('E:\\Tutorials\\DIP_nptel\\notes\\perspective transform\\example_01.png',1)
+img = cv2.imread('Images\\perspective transform\\example_01.png',1)
 
 
 height, width = img.shape[:2]

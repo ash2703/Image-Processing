@@ -8,7 +8,7 @@ Created on Wed May  8 13:07:18 2019
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt 
-img = cv2.imread('E:\Codes\Python\Person_Counting\images\\work.png',0)
+img = cv2.imread('Images\\work.png',0)
 flat=img.flatten()
 def get_hist(img):
     histogram = np.zeros(256)

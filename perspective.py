@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread('E:\\Tutorials\\DIP_nptel\\notes\\perspective transform\\example_01.png',1)
+img = cv2.imread('Images\\perspective transform\\example_01.png',1)
 rows,cols,ch = img.shape
 
 pts1 = np.float32([(73, 239), (356, 117), (475, 265), (187, 443)])

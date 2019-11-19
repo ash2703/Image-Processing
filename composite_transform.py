@@ -10,7 +10,7 @@ from math import sin,cos,radians
 import cv2 as cv
 
 
-img = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\perspective transform\\example_01.png')
+img = cv.imread('Images\\perspective transform\\example_01.png')
 
 centre=(img.shape[0]//2,img.shape[1]//2)
 

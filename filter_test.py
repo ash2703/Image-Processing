@@ -6,7 +6,7 @@ Created on Thu Jun  6 11:42:54 2019
 """
 import numpy as np
 import cv2 as cv
-img = cv.imread('E:\\Tutorials\\DIP_nptel\\notes\\fourier analysis\\lena.png',0)
+img = cv.imread('Images\\fourier analysis\\lena.png',0)
 
 def cplot(**kwargs):
     for title,img in kwargs.items():
