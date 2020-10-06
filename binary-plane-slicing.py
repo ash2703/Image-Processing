@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-# Read the image in greyscale
+
 img = cv2.imread('Images/lena.jpeg',0)
  
 lst = []
@@ -25,8 +25,10 @@ finalv =cv2.hconcat([four_bit_img,three_bit_img,two_bit_img,one_bit_img])
  
 # Vertically concatenate
 final = cv2.vconcat([finalr,finalv])
- 
+recombined_image = eight_bit_img + seven_bit_img + six_bit_img + five_bit_img + four_bit_img + three_bit_img + two_bit_img + one_bit_img
 # Display the images
-cv2.imshow('a',final*255)
+cv2.imshow("original image", img)
+cv2.imshow('8 planes',final*255)
+cv2.imshow("recombined image", recombined_image)
 cv2.waitKey(0) 
 cv2.destroyAllWindows()
