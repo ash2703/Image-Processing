@@ -7,4 +7,6 @@ mean = np.sum(img)/(img.shape[0] * img.shape[1])
 variance = np.sum(np.square(img - mean))/(img.shape[0] * img.shape[1])
 energy = np.sum(np.square(img))/(img.shape[0] * img.shape[1])
 
-print("mean: {}\nvariance: {}\nenergy: {}".format(mean,variance,energy))
+print("calculated  mean: {}, variance: {}, energy: {}".format(mean,variance,energy))
+
+print("check numpy mean: {}, variance: {}, energy: {}".format(np.mean(img),np.var(img),energy))
