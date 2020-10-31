@@ -8,7 +8,7 @@ Created on Tue May  7 20:52:12 2019
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt 
-img = cv2.imread('Images\\contrast_stretching\\eq_img.jpg',0)
+img = cv2.imread('images/contrast_stretching/eq_img.jpg',0)
 new_img=np.zeros(img.shape,dtype=np.uint8)
 new=np.zeros((255,1),dtype=np.uint8)
 hist=np.zeros(256,dtype=np.uint8)

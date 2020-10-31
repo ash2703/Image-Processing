@@ -7,7 +7,7 @@ Created on Mon Jun  3 12:12:54 2019
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('Images\\filters\\lena.png',0)
+img = cv.imread('images/filters/lena.png',0)
 
 def template(img,match):
     l,b=match.shape

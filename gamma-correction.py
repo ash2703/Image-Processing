@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('Images/lena.jpeg',0)
+img = cv2.imread('images/lena.jpeg',0)
 
 gamma=0.3# Gamma < 1 ~ Dark ; Gamma > 1 ~ Bright
 

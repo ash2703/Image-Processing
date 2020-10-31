@@ -9,7 +9,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv.imread('Images\\fourier analysis\\messi5.jpg',0)
+img = cv.imread('images/fourier analysis/messi5.jpg',0)
 rows,cols=img.shape
 
 nrows = cv.getOptimalDFTSize(rows)

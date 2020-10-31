@@ -8,7 +8,7 @@ Created on Fri May 17 10:20:54 2019
 import cv2 as cv
 import numpy as np
 
-img=cv.imread("Images\\connected component\\scan.jpg",0)
+img=cv.imread("images/connected component/scan.jpg",0)
 ret,img = cv.threshold(img,200,255,cv.THRESH_BINARY)
 count=0
 same=set() 

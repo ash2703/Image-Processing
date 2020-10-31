@@ -10,7 +10,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv.imread('Images\\fourier analysis\\messi5.jpg',0)
+img = cv.imread('images/fourier analysis/messi5.jpg',0)
 
 dft=cv.dft(np.float32(img),flags=cv.DFT_COMPLEX_OUTPUT)  #2.53 ms ± 459 µs per loop 
 dft_s=np.fft.fftshift(dft)

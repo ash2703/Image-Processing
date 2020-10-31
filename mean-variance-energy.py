@@ -8,7 +8,7 @@ def get_hist(img):
         histogram[pixel] += 1
     return histogram
 
-img = cv2.imread('Images/lena.jpeg',0)
+img = cv2.imread('images/lena.jpeg',0)
 
 mean = np.sum(img)/(img.shape[0] * img.shape[1])
 variance = np.sum(np.square(img - mean))/(img.shape[0] * img.shape[1])

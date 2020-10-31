@@ -7,7 +7,7 @@ Created on Thu May 30 10:52:39 2019
 
 import numpy as np
 import cv2 as cv
-img = cv.imread('Images\\filters\\google.jpg',-1)
+img = cv.imread('images/filters/google.jpg',-1)
 kernel=np.ones((3,3),np.uint8)
 
 
